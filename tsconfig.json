@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "module": "commonjs",   
+        "sourceMap": true,       
+        "outDir": "./build",      
+        "rootDir": "./scr",       
+        "removeComments": true,   
+        "noImplicitAny": true,      
+        "esModuleInterop": true,
+        "noEmitOnError": true,
+        "strict": true
+    }
+}
+
+// Colquei scr porque o vs code não permite alterar para src
